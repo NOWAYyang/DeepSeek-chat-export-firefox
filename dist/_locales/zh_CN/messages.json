@@ -1,0 +1,202 @@
+{
+  "extName": {
+    "message": "DeepSeek 对话导出器",
+    "description": "扩展名称"
+  },
+  "guide": {
+    "message": "使用指南",
+    "description": "打开指南按钮"
+  },
+  "refresh": {
+    "message": "刷新",
+    "description": "重新加载对话按钮"
+  },
+  "retry": {
+    "message": "重试",
+    "description": "重试加载按钮"
+  },
+  "gotIt": {
+    "message": "知道了！",
+    "description": "关闭指南按钮"
+  },
+  "reset": {
+    "message": "重置",
+    "description": "重置选择按钮"
+  },
+  "loadingConversation": {
+    "message": "正在加载对话...",
+    "description": "加载中状态文本"
+  },
+  "noConversationOpen": {
+    "message": "没有打开的对话。请先在 chat.deepseek.com 上打开一个对话。",
+    "description": "未加载对话时的提示"
+  },
+  "messagesCount": {
+    "message": "共 $COUNT$ 条消息",
+    "description": "消息数量标签"
+  },
+  "messagesSelected": {
+    "message": "共 $COUNT$ 条消息（已选 $SELECTED$ 条）",
+    "description": "含选择数量的消息计数"
+  },
+  "selectAll": {
+    "message": "全选",
+    "description": "全选按钮"
+  },
+  "clear": {
+    "message": "清空",
+    "description": "清空选择按钮"
+  },
+  "invert": {
+    "message": "反选",
+    "description": "反选按钮"
+  },
+  "noMessagesSelected": {
+    "message": "未选择消息",
+    "description": "未选择任何消息时的状态"
+  },
+  "messagesSelectedCount": {
+    "message": "已选择 $COUNT$ 条消息",
+    "description": "已选消息数量"
+  },
+  "processingExport": {
+    "message": "正在处理导出...",
+    "description": "导出中的状态"
+  },
+  "exportingProgress": {
+    "message": "正在导出... $PROGRESS$%",
+    "description": "带百分比的导出进度"
+  },
+  "exportBtn": {
+    "message": "导出（$FORMAT$）",
+    "description": "带格式名称的导出按钮"
+  },
+  "exportSuccess": {
+    "message": "已成功导出 $COUNT$ 条消息为 $FORMAT$ 格式。文件已保存。",
+    "description": "导出成功通知"
+  },
+  "exportFailed": {
+    "message": "导出失败：$ERROR$",
+    "description": "导出失败通知"
+  },
+  "noMessagesSelectedError": {
+    "message": "未选择消息。请至少选择一条消息。",
+    "description": "未选择消息时的导出错误提示"
+  },
+  "filter": {
+    "message": "筛选：",
+    "description": "筛选标签"
+  },
+  "allRoles": {
+    "message": "全部角色",
+    "description": "筛选选项：全部角色"
+  },
+  "userOnly": {
+    "message": "仅用户",
+    "description": "筛选选项：仅用户消息"
+  },
+  "assistantOnly": {
+    "message": "仅助手",
+    "description": "筛选选项：仅助手消息"
+  },
+  "searchKeyword": {
+    "message": "搜索关键词...",
+    "description": "关键词搜索占位符"
+  },
+  "exportFormatLabel": {
+    "message": "导出格式",
+    "description": "导出格式区域标签"
+  },
+  "exportAs": {
+    "message": "导出为 $FORMAT$",
+    "description": "格式按钮提示"
+  },
+  "advancedOptions": {
+    "message": "高级选项",
+    "description": "高级选项展开按钮"
+  },
+  "pageSize": {
+    "message": "页面大小",
+    "description": "页面大小设置标签"
+  },
+  "orientation": {
+    "message": "方向",
+    "description": "页面方向设置标签"
+  },
+  "portrait": {
+    "message": "纵向",
+    "description": "页面方向：纵向"
+  },
+  "landscape": {
+    "message": "横向",
+    "description": "页面方向：横向"
+  },
+  "marginMM": {
+    "message": "页边距（mm）",
+    "description": "页边距设置标签"
+  },
+  "highlightTheme": {
+    "message": "代码高亮主题",
+    "description": "代码高亮主题标签"
+  },
+  "includeMetadata": {
+    "message": "包含元数据",
+    "description": "是否在导出中包含元数据"
+  },
+  "darkMode": {
+    "message": "深色模式",
+    "description": "深色模式复选框"
+  },
+  "deepSeekStyle": {
+    "message": "DeepSeek 风格",
+    "description": "保留 DeepSeek 风格复选框"
+  },
+  "noMessagesMatch": {
+    "message": "没有消息符合当前筛选条件。",
+    "description": "筛选无匹配结果时的提示"
+  },
+  "roleYou": {
+    "message": "你",
+    "description": "消息列表中用户角色的标签"
+  },
+  "roleAI": {
+    "message": "DeepSeek",
+    "description": "消息列表中助手的标签"
+  },
+  "guideTitle": {
+    "message": "欢迎使用 DeepSeek 对话导出器",
+    "description": "指南弹窗标题"
+  },
+  "guideStep1Title": {
+    "message": "打开一个对话",
+    "description": "指南步骤 1 标题"
+  },
+  "guideStep1Desc": {
+    "message": "在 chat.deepseek.com 上打开一个对话，扩展将自动加载消息并在切换对话时保持同步。",
+    "description": "指南步骤 1 说明"
+  },
+  "guideStep2Title": {
+    "message": "选择消息",
+    "description": "指南步骤 2 标题"
+  },
+  "guideStep2Desc": {
+    "message": "勾选消息旁的选择框来选中需要导出的消息。使用「全选」「清空」「反选」快速管理选择。你可以按角色（用户/助手）或关键词筛选消息。",
+    "description": "指南步骤 2 说明"
+  },
+  "guideStep3Title": {
+    "message": "选择导出格式",
+    "description": "指南步骤 3 标题"
+  },
+  "guideStep3Desc": {
+    "message": "选择 Word、PDF、HTML、Markdown、JSON、PNG 或 SVG 格式。展开「高级选项」可自定义页面大小、方向、代码高亮主题等。",
+    "description": "指南步骤 3 说明"
+  },
+  "guideStep4Title": {
+    "message": "导出并保存",
+    "description": "指南步骤 4 标题"
+  },
+  "guideStep4Desc": {
+    "message": "点击「导出」按钮生成并下载文件。处理大对话时会在后台运行以保持扩展响应流畅。",
+    "description": "指南步骤 4 说明"
+  }
+}

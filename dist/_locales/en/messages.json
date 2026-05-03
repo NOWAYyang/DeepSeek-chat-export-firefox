@@ -1,0 +1,202 @@
+{
+  "extName": {
+    "message": "DeepSeek Chat Exporter",
+    "description": "Extension name"
+  },
+  "guide": {
+    "message": "Guide",
+    "description": "Button to open guide"
+  },
+  "refresh": {
+    "message": "Refresh",
+    "description": "Button to reload conversation"
+  },
+  "retry": {
+    "message": "Retry",
+    "description": "Button to retry loading"
+  },
+  "gotIt": {
+    "message": "Got it!",
+    "description": "Button to close guide"
+  },
+  "reset": {
+    "message": "Reset",
+    "description": "Button to reset selection"
+  },
+  "loadingConversation": {
+    "message": "Loading conversation...",
+    "description": "Loading state text"
+  },
+  "noConversationOpen": {
+    "message": "No conversation open. Open a conversation on chat.deepseek.com.",
+    "description": "Empty state when no conversation is loaded"
+  },
+  "messagesCount": {
+    "message": "$COUNT$ messages",
+    "description": "Message count label"
+  },
+  "messagesSelected": {
+    "message": "$COUNT$ messages ($SELECTED$ selected)",
+    "description": "Message count with selection"
+  },
+  "selectAll": {
+    "message": "Select All",
+    "description": "Button to select all messages"
+  },
+  "clear": {
+    "message": "Clear",
+    "description": "Button to clear selection"
+  },
+  "invert": {
+    "message": "Invert",
+    "description": "Button to invert selection"
+  },
+  "noMessagesSelected": {
+    "message": "No messages selected",
+    "description": "Status when nothing selected"
+  },
+  "messagesSelectedCount": {
+    "message": "$COUNT$ message(s) selected",
+    "description": "Count of selected messages"
+  },
+  "processingExport": {
+    "message": "Processing export...",
+    "description": "Status during export"
+  },
+  "exportingProgress": {
+    "message": "Exporting... $PROGRESS$%",
+    "description": "Export progress with percentage"
+  },
+  "exportBtn": {
+    "message": "Export ($FORMAT$)",
+    "description": "Export button with format name"
+  },
+  "exportSuccess": {
+    "message": "Exported $COUNT$ message(s) as $FORMAT$. File has been saved.",
+    "description": "Export success notification"
+  },
+  "exportFailed": {
+    "message": "Export failed: $ERROR$",
+    "description": "Export failure notification"
+  },
+  "noMessagesSelectedError": {
+    "message": "No messages selected. Please select at least one message.",
+    "description": "Error when trying to export without selection"
+  },
+  "filter": {
+    "message": "Filter:",
+    "description": "Filter label"
+  },
+  "allRoles": {
+    "message": "All Roles",
+    "description": "Filter option: all roles"
+  },
+  "userOnly": {
+    "message": "User only",
+    "description": "Filter option: user messages only"
+  },
+  "assistantOnly": {
+    "message": "Assistant only",
+    "description": "Filter option: assistant messages only"
+  },
+  "searchKeyword": {
+    "message": "Search keyword...",
+    "description": "Keyword search placeholder"
+  },
+  "exportFormatLabel": {
+    "message": "Export Format",
+    "description": "Export format section label"
+  },
+  "exportAs": {
+    "message": "Export as $FORMAT$",
+    "description": "Tooltip for format buttons"
+  },
+  "advancedOptions": {
+    "message": "Advanced Options",
+    "description": "Toggle for advanced options"
+  },
+  "pageSize": {
+    "message": "Page Size",
+    "description": "Page size setting label"
+  },
+  "orientation": {
+    "message": "Orientation",
+    "description": "Page orientation setting label"
+  },
+  "portrait": {
+    "message": "Portrait",
+    "description": "Page orientation: portrait"
+  },
+  "landscape": {
+    "message": "Landscape",
+    "description": "Page orientation: landscape"
+  },
+  "marginMM": {
+    "message": "Margin (mm)",
+    "description": "Margin setting label"
+  },
+  "highlightTheme": {
+    "message": "Highlight Theme",
+    "description": "Code highlight theme label"
+  },
+  "includeMetadata": {
+    "message": "Include metadata",
+    "description": "Checkbox to include metadata in export"
+  },
+  "darkMode": {
+    "message": "Dark mode",
+    "description": "Checkbox for dark mode"
+  },
+  "deepSeekStyle": {
+    "message": "DeepSeek style",
+    "description": "Checkbox for DeepSeek style preservation"
+  },
+  "noMessagesMatch": {
+    "message": "No messages match the current filters.",
+    "description": "Empty state when filters match nothing"
+  },
+  "roleYou": {
+    "message": "You",
+    "description": "Label for user role in message list"
+  },
+  "roleAI": {
+    "message": "DeepSeek",
+    "description": "Label for assistant role in message list"
+  },
+  "guideTitle": {
+    "message": "Welcome to DeepSeek Chat Exporter",
+    "description": "Guide modal title"
+  },
+  "guideStep1Title": {
+    "message": "Open a Conversation",
+    "description": "Guide step 1 title"
+  },
+  "guideStep1Desc": {
+    "message": "Navigate to a conversation on chat.deepseek.com. The extension will automatically load its messages and keep them in sync as you switch between conversations.",
+    "description": "Guide step 1 description"
+  },
+  "guideStep2Title": {
+    "message": "Choose Messages",
+    "description": "Guide step 2 title"
+  },
+  "guideStep2Desc": {
+    "message": "Check the boxes next to individual messages to select them for export. Use Select All, Clear, or Invert to quickly manage selections. You can filter messages by role (User/Assistant) or by keyword.",
+    "description": "Guide step 2 description"
+  },
+  "guideStep3Title": {
+    "message": "Pick Export Format",
+    "description": "Guide step 3 title"
+  },
+  "guideStep3Desc": {
+    "message": "Choose from Word, PDF, HTML, Markdown, JSON, PNG, or SVG. Expand Advanced Options to customize page size, orientation, code highlighting theme, and more.",
+    "description": "Guide step 3 description"
+  },
+  "guideStep4Title": {
+    "message": "Export & Save",
+    "description": "Guide step 4 title"
+  },
+  "guideStep4Desc": {
+    "message": "Click the Export button to generate and download your file. For large conversations, the processing runs in the background to keep the extension responsive.",
+    "description": "Guide step 4 description"
+  }
+}

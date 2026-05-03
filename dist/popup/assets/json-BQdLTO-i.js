@@ -1,0 +1,1 @@
+function e(e,t,n){let r={exportDate:new Date().toISOString(),title:n,messageCount:e.length,messages:e.map(e=>({role:e.role,content:e.content,timestamp:e.create_time?new Date(e.create_time*1e3).toISOString():void 0,conversation:e.conversationTitle||void 0}))};return JSON.stringify(r,null,2)}export{e as exportJSON};

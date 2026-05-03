@@ -1,0 +1,40 @@
+{
+  "name": "deepseek-chat-exporter",
+  "version": "1.0.0",
+  "description": "Firefox extension to export DeepSeek chat conversations to multiple formats",
+  "private": true,
+  "scripts": {
+    "build:popup": "vite build --config vite.popup.config.ts",
+    "build:scripts": "esbuild src/background.ts src/content_script.ts --bundle --outdir=dist --target=firefox109 --format=iife",
+    "build:page": "esbuild src/page_inject.ts --bundle --outfile=dist/page_inject.js --target=firefox109 --format=iife",
+    "build:worker": "esbuild src/workers/export.worker.ts --bundle --outfile=dist/export.worker.js --target=firefox109 --format=iife",
+    "build:static": "cp manifest.json dist/ && cp -r icons dist/ && cp -r _locales dist/",
+    "build": "npm run build:popup && npm run build:scripts && npm run build:page && npm run build:worker && npm run build:static",
+    "dev": "npm run build:popup -- --mode development && npm run build:scripts && npm run build:page && npm run build:worker && npm run build:static",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "docx": "^8.5.0",
+    "highlight.js": "^11.9.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.1",
+    "katex": "^0.16.11",
+    "markdown-it": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/markdown-it": "^14.1.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.6.3",
+    "vite": "^8.0.10",
+    "vitest": "^4.1.5"
+  }
+}
